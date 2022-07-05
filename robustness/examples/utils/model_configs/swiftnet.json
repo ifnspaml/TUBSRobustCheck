@@ -1,0 +1,9 @@
+{
+    "num_classes_wo_bg": 19,
+    "ignore_bkg": true,
+    "k_Logits": 3,
+    "enc_act_fn": "ReLU",
+    "spp_act_fn": "ReLU",
+    "dec_act_fn": "ReLU",
+    "DUpsampling": false
+}
