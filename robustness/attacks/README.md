@@ -5,9 +5,9 @@ An adversarial attack toolbox to assess semantic segmentation neural networks un
 
 ## Structure 
 This attack tool is structured in the following way:
-* The folder [attacks](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/blob/Metzen_merge/robustness/attacks/) contains the [base class](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/blob/Metzen_merge/robustness/attacks/base.py) that is used for the implementation of all attacks as well as all attacks of this tool.
-* An working example can be found in the [examples](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/examples/) folder. 
-Please refer to the file [create_adv_examples.py](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/examples) if you have doubts on how to load and attack a semantic segmentation neural network using our attack tool.
+* The folder [attacks](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks/) contains the [base class](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks/base.py) that is used for the implementation of all attacks as well as all attacks of this tool.
+* An working example can be found in the [examples](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/examples/) folder. 
+Please refer to the file [create_adv_examples.py](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/examples/) if you have doubts on how to load and attack a semantic segmentation neural network using our attack tool.
 
 ## Support
 Currently, the following attacks are implemented:
@@ -32,7 +32,7 @@ The following examples were produced using a SwiftNet[<sup>1</sup>](https://www.
 #### Metzen static single image attack
 The attack tool receives as inputs the **original image**, a (static) **target semantic segmentation** as well as a (trained) deep neural network.
 Internally, it computes an **adversarial perturbation** and adds it to the original image resulting in an adversarial example.
-The adversarial example (or rather the adversarial perturbation) to fool the neural network into always predicting the same [static image](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/blob/Metzen_merge/robustness/attacks/img/monchengladbach_000000_026602_gtFine_labelIds.png).
+The adversarial example (or rather the adversarial perturbation) to fool the neural network into always predicting the same **static image**.
 The results in the second row show that the **adversarial example** could substantially fool the neural network to
 predict an image that closely resembles the static image, instead of the **clean prediction** which it was supposed to. 
 The image to the bottom right shows the **groundtruth** for the clean image.

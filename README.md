@@ -4,18 +4,18 @@
 
 ## About
 TUBSRobustCheck is a toolbox to evaluate the robustness of semantic segmentation networks.
-The robustness is evaluated in terms of robustness towards adversarial attacks ([attacks](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/attacks)) as well as robustness towards common corruptions ([corruptions](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/corruptions)).
+The robustness is evaluated in terms of robustness towards adversarial attacks ([attacks](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks) as well as robustness towards common corruptions ([corruptions](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/corruptions)).
 It is mainly developed by [Andreas Bär](https://scholar.google.de/citations?user=QMkFXXgAAAAJ&hl=de) and [Edgard Moreira Minete]() at the [Institute for Communications Technology](https://www.tu-braunschweig.de/en/ifn/institute/dept/sv) of the Technische Universität Braunschweig.
 
 
-## [robustness/attacks](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/attacks)
+## [robustness/attacks](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks)
 This tool implements various individual and universal adversarial attacks for semantic segmentation networks.
-More information can be found [here](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/attacks).
+More information can be found [here](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks).
 
 
-## [robustness/corruptions](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/corruptions)
+## [robustness/corruptions](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/corruptions)
 This tool implements common corruptions, first introduced by [(Hendrycks et al., ICLR 2019)](https://arxiv.org/pdf/1903.12261.pdf).
-More information can be found [here](https://datahost.ifn.ing.tu-bs.de/gitlab/computer-vision/attack_tool/-/tree/master/robustness/corruptions).
+More information can be found [here](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/corruptions).
 
 
 ## Installation
