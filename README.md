@@ -5,7 +5,7 @@
 ## About
 TUBSRobustCheck is a toolbox to evaluate the robustness of semantic segmentation networks.
 The robustness is evaluated in terms of robustness towards adversarial attacks ([attacks](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks) as well as robustness towards common corruptions ([corruptions](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/corruptions)).
-It is mainly developed by [Andreas Bär](https://scholar.google.de/citations?user=QMkFXXgAAAAJ&hl=de) and [Edgard Moreira Minete]() at the [Institute for Communications Technology](https://www.tu-braunschweig.de/en/ifn/institute/dept/sv) of the Technische Universität Braunschweig.
+It is mainly developed by [Andreas Bär](https://scholar.google.de/citations?user=QMkFXXgAAAAJ&hl=de) and [Edgard Moreira Minete](https://edgmin.github.io) at the [Institute for Communications Technology](https://www.tu-braunschweig.de/en/ifn/institute/dept/sv) of the Technische Universität Braunschweig.
 
 
 ## [robustness/attacks](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/attacks)
