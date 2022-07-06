@@ -18,6 +18,7 @@ class ModelWrapper(nn.Module):
         self.model = model
         self.preprocessing = preprocessing
         self.postprocessing = postprocessing
+        self.device = next(model.parameters()).device
 
     def _preprocess(self, x):
         """

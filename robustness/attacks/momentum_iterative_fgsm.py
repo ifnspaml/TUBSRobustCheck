@@ -76,7 +76,7 @@ class MomentumIterativeFGSM(BaseAttack):
         :return: adv_ex (the adversarial example)
         """
         assert x.device == y.device == next(model.parameters()).device, \
-            f"The devices of x and model should be the same but are x:{x.device}, model:{model.device}"
+            f"The devices of x, y, and model should be the same but are x:{x.device}, y:{y.device}, and model:{model.device}"
 
         assert targetted in [0, 1, False, True], \
             "The parameter targetted needs to be either 0, 1, False, or True."
