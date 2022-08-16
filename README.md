@@ -1,4 +1,4 @@
-<img align="right" src="../img/logo_IFN.svg" alt="logo_ifn"> <br/>
+<img align="right" src="./img/logo_IFN.svg" alt="logo_ifn"> <br/>
 
 # TUBSRobustCheck
 
