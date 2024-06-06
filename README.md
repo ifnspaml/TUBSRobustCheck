@@ -18,6 +18,17 @@ This tool implements common corruptions, first introduced by [(Hendrycks et al.,
 More information can be found [here](https://github.com/ifnspaml/TUBSRobustCheck/tree/main/robustness/corruptions).
 
 
+## Projects using this tool
+
+If you find this repository helpful for your projects/papers, please add a link here. Thanks!
+
+| Repository | Paper | Venue |
+| ---------- | ----- | ----- |
+| [**PerfPredRec**](https://github.com/ifnspaml/PerfPredRec) | [Performance Prediction for Semantic Segmentation by a Self-Supervised Image Reconstruction Decoder](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Bar_Performance_Prediction_for_Semantic_Segmentation_by_a_Self-Supervised_Image_Reconstruction_CVPRW_2022_paper.pdf) | CVPR WAD 2022 |
+| [**PerfPredRecV2**](https://github.com/ifnspaml/PerfPredRecV2) | [Improvements to Image Reconstruction-Based Performance Prediction for Semantic Segmentation in Highly Automated Driving](https://openaccess.thecvf.com/content/CVPR2023W/WAD/papers/Bar_Improvements_to_Image_Reconstruction-Based_Performance_Prediction_for_Semantic_Segmentation_in_CVPRW_2023_paper.pdf) | CVPR WAD 2023 |
+| ... | ... | ... |
+
+
 ## Installation
 To install TUBSRobustCheck, the following packages are needed:
 ```
@@ -51,7 +62,6 @@ To install TUBSRobustCheck as a package, run the following command inside your e
 pip install -e .
 ```
 
-
 ## Shoutout
 We would like to thank all contributors of
 https://github.com/Harry24k/adversarial-attacks-pytorch,
@@ -63,7 +73,6 @@ https://github.com/Harry24k/AEPW-pytorch,
 and https://github.com/hendrycks/robustness for their awesome work.
 We used these GitHub repositories as guidelines and inspiration to create our own code base serving our needs.
 Please check out their contributions as well!
-
 
 ## License
 MIT Licence
