@@ -93,7 +93,7 @@ class PGD(IterativeFGSM):
 
         if self.random_start:
             # A random perturbation in [-epsilon, epsilon]
-            r = (torch.rand(x.shape).cuda() - 0.5) * self.epsilon
+            r = (torch.rand(x.shape).cuda() - 0.5) * 2 * self.epsilon
         else:
             # This is eventually iterative FGSM
             r = torch.zeros(x.shape, dtype=torch.float).cuda()
